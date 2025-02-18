@@ -11,7 +11,7 @@ int mian(void)
 
 	for (ay = 'a'; ay <= 'z'; ay++)
 		{
-		if ( ay != 'q' && ay != 'e')
+		if (ay != 'q' && ay != 'e')
 			putchar(ay);
 		}
 	putchar('\n');
