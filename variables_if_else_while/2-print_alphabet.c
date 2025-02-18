@@ -11,6 +11,6 @@ int  main(void)
 	char pizza;
 
 	for (pizza = 'a'; pizza <= 'z'; pizza++)
-		printf("%c", pizza);
+		printf("%c\n", pizza);
 	return (0);
 }
