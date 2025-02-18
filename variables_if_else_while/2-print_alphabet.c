@@ -11,7 +11,7 @@ int  main(void)
 	char pizza;
 
 	for (pizza = 'a'; pizza <= 'z'; pizza++)
-		printf("%c", pizza);
-		printf("\n");
+		putchar(pizza);
+		putchar("\n");
 	return (0);
 }
