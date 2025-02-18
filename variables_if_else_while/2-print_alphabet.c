@@ -12,6 +12,6 @@ int  main(void)
 
 	for (pizza = 'a'; pizza <= 'z'; pizza++)
 		putchar(pizza);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
