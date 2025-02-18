@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-*main - destroy the entry point
+*main - the entry point,  like wth
 *
 *Return: Always 0 (Success)
 */
 
-int mian(void)
+int main(void)
 {
 	char ay;
 
