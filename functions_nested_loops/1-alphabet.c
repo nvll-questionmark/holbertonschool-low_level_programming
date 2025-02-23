@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_alphabet - for loop that prints the alphabet in lower case
+ * new line, of course
+ */
+
 void print_alphabet(void)
 {
 	char alp;
