@@ -2,7 +2,6 @@
 
 /**
  *print_alphabet_x10 - prints out the alphabet x10.
- *followed by a new line, of course.
  */
 
 void print_alphabet_x10(void)
