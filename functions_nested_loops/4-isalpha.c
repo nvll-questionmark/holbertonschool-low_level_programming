@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - verifies for alphabetic characters
- * c: verified character
+ * @c: verified character
  *
  * Return: 1 if letter(upper or lower), otherwise return 0
  */
