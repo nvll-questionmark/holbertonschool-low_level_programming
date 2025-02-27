@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints # 1-100 & replaces multiples of 3 by Fizz and multiples of 5 as Buzz
+ * main - prints # 1-100 & replaces multi of 3 by Fizz and mult of 5 as Buzz
  * Return: Always 0 Success
  */
 
@@ -15,7 +15,7 @@ int main(void)
 		{
 			printf("%d", l);
 		}
-		else if (l % 3 == 0 && l % 5 ==0)
+		else if (l % 3 == 0 && l % 5 == 0)
 		{
 			printf(" Fizzbuzz");
 		}
