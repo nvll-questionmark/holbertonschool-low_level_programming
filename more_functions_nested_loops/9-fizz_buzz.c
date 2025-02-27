@@ -17,7 +17,7 @@ int main(void)
 		}
 		else if (l % 3 == 0 && l % 5 == 0)
 		{
-			printf(" Fizzbuzz");
+			printf(" FizzBuzz");
 		}
 		else if (l % 3 == 0)
 		{
