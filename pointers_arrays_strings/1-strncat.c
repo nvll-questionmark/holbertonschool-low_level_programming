@@ -5,6 +5,7 @@
  * @dest: pointa
  * @src: pointa
  * @n: given value
+ * Return: Destination
  */
 
 char *_strncat(char *dest, char *src, int n)
