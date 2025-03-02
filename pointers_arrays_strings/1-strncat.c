@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - function to concatenate more
+ * *_strncat - function to concatenate more
  * @dest: pointa
  * @src: pointa
  * @n: given value
