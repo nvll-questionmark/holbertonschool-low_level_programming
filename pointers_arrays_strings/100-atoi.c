@@ -21,14 +21,14 @@ int _atoi(char *s)
 
 	while (a < rev && f == 0)
 	{
-		if (s[a] == 45)
+		if (s[a] == '-')
 			++b;
 
 		if (s[a] >= 48 && s[a] <= 57)
 		{
 			digit = s[a] - 48;
 			if (b % 2)
-				digit = digit;
+				digit = -digit;
 			c = c * 10 + digit;
 			f = 1;
 			if (s[a + 1] < 48 || s[a + 1] > 57)
