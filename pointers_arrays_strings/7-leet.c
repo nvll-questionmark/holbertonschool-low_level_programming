@@ -19,7 +19,7 @@ char *leet(char *s)
 	{
 		for (q = 0; q < 10; q++)
 		{
-			if s[p] == n1[q]}
+			if (s[p] == n1[q])
 			{
 				s[p] = n2[q];
 			}
