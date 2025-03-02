@@ -9,10 +9,10 @@ void puts2(char *str)
 {
 	int rev = 0;
 	int i;
-	
+
 	while (str[rev] != '\0')
 	{
-		rev++
+		rev++;
 	}
 
 	for (i = 0; i < rev; i += 2)
