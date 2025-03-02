@@ -7,7 +7,7 @@
 
 void puts_half(char *str)
 {
-	int rev;
+	int rev = 0;
 	int n;
 	int i;
 
@@ -22,7 +22,7 @@ void puts_half(char *str)
 		{
 			_putchar(str[i]);
 		}
-	}	else if (rev % 2)
+	}else if (rev % 2)
 		{
 			for (n = (rev - 1) / 2; n < rev - 1; n++)
 			{
