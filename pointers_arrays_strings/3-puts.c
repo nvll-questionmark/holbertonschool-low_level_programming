@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _puts - funtion to print a string
- *@str: pointer to the string
+ * _puts - prints a string
+ * @str: stuff printed
  */
 
 void _puts(char *str)
 {
-        while (*str)
-        {
-                _putchar(*str);
-                str++;
-        }
-        _putchar('\n');
+	while (*str)
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
