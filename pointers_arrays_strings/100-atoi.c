@@ -12,13 +12,13 @@ int _atoi(char *s)
 	int a = 0;
 	int b = 0;
 	int c = 0;
-	rev = 0;
+	int rev = 0;
 	int f = 0;
 	int digit = 0;
 
 	while (s[rev] != '\0')
 		rev++;
-	
+
 	while (a < rev && f == 0)
 	{
 		if (s[a] == 45)
@@ -33,7 +33,7 @@ int _atoi(char *s)
 			f = 1;
 			if (s[a + 1] < 48 || s[a + 1] > 57)
 				break;
-			f=0;
+			f = 0;
 		}
 		a++
 	}
