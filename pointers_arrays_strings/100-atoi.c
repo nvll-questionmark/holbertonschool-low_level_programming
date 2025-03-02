@@ -22,12 +22,12 @@ int _atoi(char *s)
 	while (a < rev && f == 0)
 	{
 		if (s[a] == 45)
-			b++;
+			++b;
 
 		if (s[a] >= 48 && s[a] <= 57)
 		{
 			digit = s[a] - 48;
-			if (d % 2)
+			if (b % 2)
 				digit = digit;
 			c = c * 10 + digit;
 			f = 1;
@@ -41,5 +41,5 @@ int _atoi(char *s)
 	if (f == 0)
 		return (0);
 
-	return (n);
+	return (c);
 }
