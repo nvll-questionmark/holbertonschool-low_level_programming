@@ -6,11 +6,12 @@
  * @c: char
  *
  * Return: 0
+ *
+ * no initialization needed since s is already a declared argument
  */
 
 char *strchar(char *s, char c)
 {
-	//no initialization needed since s is already a declared argument
 	for (; *s != '\0'; s++)
 	{
 		if (*s == c)
@@ -18,7 +19,7 @@ char *strchar(char *s, char c)
 			return (s);
 		}
 	}
-	if (*s ==c)
+	if (*s == c)
 	{
 		return (s);
 	}
