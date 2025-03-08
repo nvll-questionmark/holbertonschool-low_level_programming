@@ -10,7 +10,7 @@
  * no initialization needed since s is already a declared argument
  */
 
-char *strchar(char *s, char c)
+char *_strchar(char *s, char c)
 {
 	for (; *s != '\0'; s++)
 	{
