@@ -8,20 +8,19 @@
  * Return: 0
  */
 
-char *_strchr(char *s, char c)
+char *strchar(char *s, char c)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
+	//no initialization needed since s is already a declared argument
+	for (; *s != '\0'; s++)
 	{
-		if (s[i] == c)
+		if (*s == c)
 		{
-			return (&s[i]);
-		}
-		if (c == '\0')
-		{
-			return (&s[strlen(s)]);
+			return (s);
 		}
 	}
-	return (NULL);
+	if (*s ==c)
+	{
+		return (s);
+	}
+	return (0);
 }
