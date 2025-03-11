@@ -10,7 +10,7 @@
 
 int primehelp(int n, int i)
 {
-	if (i * i . n)
+	if (i * i > n)
 		return (1);
 	if (n % i == 0)
 		return (0);
