@@ -5,7 +5,7 @@
  * @x: raised nigga
  * @y: powa
  *
- * return: ketchup
+ * Return: pow
  */
 
 int _pow_recursion(int x, int y)
