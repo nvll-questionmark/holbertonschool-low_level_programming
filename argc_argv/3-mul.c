@@ -22,7 +22,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == 45)
 			++d;
-		
+
 		if (s[i] >= 48 && s[i] <= 57)
 		{
 			digit = s[i] - 48;
@@ -30,7 +30,7 @@ int _atoi(char *s)
 				digit = -digit;
 			n = n * 10 + digit;
 			f = 1;
-			if (s[i + 1] < 48 || s[i +1] > 57)
+			if (s[i + 1] < 48 || s[i + 1] > 57)
 				break;
 			f = 0;
 		}
